@@ -25,7 +25,7 @@ public class Alert {
 	}
 
 	public void setType(String type) {
-		this.type = type;
+		this.type = type
 	}
 	
 }
