@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.body{
+  background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html, body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.img-thumbnail{
+	height: 200px;
+	width: 200px;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.info{
+	position:relative;
+	top:20%;
+	font-size: 2rem;
+}
+
+
+.avatar h3{
+	width:200px;
+	text-align: center;
+}
+
+.listarDespesas {
+	display: block;
+	margin: auto;
+	width: 10rem;
+	height: 2rem;
+  }
+  
+			

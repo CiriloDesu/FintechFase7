@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding:0;
+				
+}
+		
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url("./../img/fundo-pagina.jpg");
+	height: 100%;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size:1.5rem;
+	color: #fff;
+}
+
+body::-webkit-scrollbar,
+.form::-webkit-scrollbar{
+	width: 0;
+}
+
+.form{
+	box-sizing: border-box;
+	position: relative;
+	height: 90%;
+	overflow: auto;
+	top: 5%;
+	background-color:#2e2e2e;
+	border-radius:32px 0px 32px 0px;
+	border-top: 8px solid darkviolet;
+	border-bottom: 4px solid darkviolet;
+	box-shadow: 8px 8px 20px rgba(0,0,0,.3);
+}
+
+h1{
+	text-align:center;
+	padding: 5%;
+}
+
+#botoes{
+	margin-top:8%;
+}
+
+
+
+

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.div2{
+	height: 250px;
+	width: 250px;
+}
+
+.div1, .div2 {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .div1 {
+        position: absolut;
+        transform: translateY(-22%);
+            z-index: 1;
+            height: 185px;
+	width: 185px;
+        }
+
+        .div2 {
+            z-index: 2;
+            
+        }
